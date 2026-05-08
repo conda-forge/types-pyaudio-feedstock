@@ -1,5 +1,5 @@
 {% set name = "types-pyaudio" %}
-{% set version = "0.2.16.20260408" %}
+{% set version = "0.2.16.20260508" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 34b1bf5928f8842d7c083287d5513b9568495c628b1701318ca9ae563fd6b5d0
+  sha256: e12cb0379f1311c6252ac8ec0ddf0dcc3ac254bbb86aa3fdfc46648f84e7fcdc
 
 build:
   number: 0
